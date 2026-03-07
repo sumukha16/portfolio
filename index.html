@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+<title>Sumukha Nayak — CSE Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style/style.css"/>
+</head>
+<body>
+
+<div id="prog"></div>
+<canvas id="canvas"></canvas>
+
+<!-- NAV -->
+<nav id="nav">
+  <a class="nav-logo" href="#hero">SumukhaNayak.dev</a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="hamburger" id="ham" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<ul class="mobile-menu" id="mobileMenu">
+  <li><a href="#about" class="mm-link">About</a></li>
+  <li><a href="#skills" class="mm-link">Skills</a></li>
+  <li><a href="#projects" class="mm-link">Projects</a></li>
+  <li><a href="#contact" class="mm-link">Contact</a></li>
+</ul>
+
+<!-- ═══════════════ HERO ═══════════════ -->
+<section id="hero">
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Available for opportunities</div>
+    <h1 class="hero-h">Hi, I'm <span>Sumukha Nayak</span></h1>
+    <div class="hero-role"><span id="tw"></span><span class="tc">|</span></div>
+    <p class="hero-sub">
+      A Computer Science fresher passionate about building real-world solutions —
+      from judicial systems to supply chain intelligence.
+    </p>
+    <div class="hero-ctas">
+      <a href="#projects" class="btn-p">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="5 5 12 5 19 5"/><polyline points="5 5 12 12 19 5"/></svg>
+        View My Work
+      </a>
+      <a href="resume.pdf" download class="btn-g">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download Resume
+      </a>
+      <a href="#contact" class="btn-g">Get In Touch</a>
+    </div>
+  </div>
+  <div class="scroll-hint">
+    <div class="scroll-mouse"></div>
+    Scroll
+  </div>
+</section>
+
+<!-- ═══════════════ ABOUT ═══════════════ -->
+<section id="about">
+  <div class="sec-label">01 — About</div>
+  <div class="about-grid">
+    <div class="about-text r3d-l">
+      <h2 class="sec-title">Building things<br><span>that actually matter</span></h2>
+      <p>I'm a Computer Science &amp; Engineering student with a strong foundation in programming languages and a drive to solve real problems through technology.</p>
+      <p>From designing a judicial monitoring platform to engineering early-warning systems for supply chain disruptions, I focus on projects that have measurable impact.</p>
+      <p>Actively seeking internships and fresher roles where I can contribute, grow, and build things that make a difference.</p>
+    </div>
+    <div class="about-stats r3d-r">
+      <div class="stat-card r3d-flip d1">
+        <div class="stat-num" data-count="6">0</div>
+        <div class="stat-label">Technologies Learned</div>
+      </div>
+      <div class="stat-card r3d-flip d2">
+        <div class="stat-num" data-count="2">0</div>
+        <div class="stat-label">Projects Built</div>
+      </div>
+      <div class="stat-card r3d-flip d3">
+        <div class="stat-num" data-count="2">0</div>
+        <div class="stat-label">Languages Spoken</div>
+      </div>
+      <div class="stat-card r3d-flip d4">
+        <div class="stat-num">&#8734;</div>
+        <div class="stat-label">Curiosity &amp; Drive</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ SKILLS ═══════════════ -->
+<section id="skills">
+  <div class="sec-label">02 — Skills</div>
+  <h2 class="sec-title r3d">Technical <span>Toolkit</span></h2>
+  <div class="skills-grid" id="skillsSec">
+    <div class="skill-card r3d d1">
+      <div class="sk-icon">⚙️</div>
+      <div><div class="sk-name">C</div><div class="sk-type">Systems Programming</div><div class="sk-bar-wrap"><div class="sk-bar" data-w="80"></div></div></div>
+    </div>
+    <div class="skill-card r3d d2">
+      <div class="sk-icon">🔷</div>
+      <div><div class="sk-name">C++</div><div class="sk-type">Object-Oriented Programming</div><div class="sk-bar-wrap"><div class="sk-bar" data-w="78"></div></div></div>
+    </div>
+    <div class="skill-card r3d d3">
+      <div class="sk-icon">☕</div>
+      <div><div class="sk-name">Java</div><div class="sk-type">Backend / OOP</div><div class="sk-bar-wrap"><div class="sk-bar" data-w="75"></div></div></div>
+    </div>
+    <div class="skill-card r3d d4">
+      <div class="sk-icon">🐍</div>
+      <div><div class="sk-name">Python</div><div class="sk-type">Scripting / Data / ML</div><div class="sk-bar-wrap"><div class="sk-bar" data-w="82"></div></div></div>
+    </div>
+    <div class="skill-card r3d d5">
+      <div class="sk-icon">🗄️</div>
+      <div><div class="sk-name">SQL</div><div class="sk-type">Relational Databases</div><div class="sk-bar-wrap"><div class="sk-bar" data-w="74"></div></div></div>
+    </div>
+    <div class="skill-card r3d d6">
+      <div class="sk-icon">🍃</div>
+      <div><div class="sk-name">MongoDB</div><div class="sk-type">NoSQL Databases</div><div class="sk-bar-wrap"><div class="sk-bar" data-w="68"></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ PROJECTS ═══════════════ -->
+<section id="projects">
+  <div class="sec-label">03 — Projects</div>
+  <h2 class="sec-title r3d">What I've <span>Built</span></h2>
+  <div class="projects-grid">
+
+    <div class="p-card r3d-l d1">
+      <div class="p-status p-done"><div class="p-dot"></div>Completed</div>
+      <div class="p-title">Judicial Judge Monitoring System</div>
+      <p class="p-desc">A platform to track and monitor judicial activities, enabling transparency and accountability in the justice system. Provides structured data views on case handling, judge performance, and hearing timelines.</p>
+      <div class="p-tags">
+        <span class="tag">Python</span><span class="tag">SQL</span>
+        <span class="tag">Backend</span><span class="tag">Dashboard</span>
+      </div>
+    </div>
+
+    <div class="p-card r3d-r d2">
+      <div class="p-status p-go"><div class="p-dot"></div>Ongoing</div>
+      <div class="p-title">Supply Chain Disruption Early-Warning System</div>
+      <p class="p-desc">An intelligent system that detects and predicts supply chain disruptions before they escalate. Aggregates signals across logistics, geopolitical, and market data to trigger alerts for risk mitigation.</p>
+      <div class="p-tags">
+        <span class="tag">Python</span><span class="tag">MongoDB</span>
+        <span class="tag">ML</span><span class="tag">Data Pipeline</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════ LANGUAGES ═══════════════ -->
+<section id="languages" style="background:var(--bg2)">
+  <div class="sec-label">04 — Languages</div>
+  <h2 class="sec-title r3d">Communication <span>Skills</span></h2>
+  <div class="lang-grid">
+    <div class="lang-card r3d d1">
+      <span class="l-flag">🇬🇧</span>
+      <div class="l-name">English</div>
+      <div class="l-level">Professional Proficiency</div>
+    </div>
+    <div class="lang-card r3d d2">
+      <span class="l-flag">🇮🇳</span>
+      <div class="l-name">kannada</div>
+      <div class="l-level">Native / Fluent</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ CONTACT ═══════════════ -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="sec-label">05 — Contact</div>
+    <h2 class="sec-title r3d">Let's <span>Connect</span></h2>
+    <p class="c-sub r3d">Open to internships, fresher roles, and collaborations.<br>Feel free to reach out — I respond promptly.</p>
+    <div class="c-grid r3d">
+      <a href="tel:+91 7022590747" class="c-link">
+        <div><div class="c-lbl">Phone</div><div class="c-val">+91 70225 90747</div></div>
+      </a>
+      <a href="mailto:sumukhanayak83@gmail.com" class="c-link">
+        <div class="c-icon">
+          <!-- envelope/mail icon -->
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="var(--accent)" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="4" width="20" height="16" rx="2" ry="2"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+        </div>
+        <div><div class="c-lbl">Email</div><div class="c-val">sumukhanayak83@gmail.com</div></div>
+      </a>
+      <a href="https://www.linkedin.com/in/sumukha-nayak-1107a7291" target="_blank" class="c-link">
+        <div class="c-icon">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="var(--accent)"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </div>
+        <div><div class="c-lbl">LinkedIn</div><div class="c-val">Sumukha Nayak</div></div>
+      </a>
+      <a href="https://github.com/sumukha16" target="_blank" class="c-link">
+        <div class="c-icon">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        </div>
+        <div><div class="c-lbl">GitHub</div><div class="c-val">sumukha16</div></div>
+      </a>
+    </div>
+    <a href="assets/resume.pdf" download class="btn-p r3d" style="margin:0 auto;display:inline-flex">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download Resume (PDF)
+    </a>
+  </div>
+</section>
+
+<footer>
+  <span>© 2025 Your Name — CSE Portfolio</span>
+  <span style="color:var(--accent)">Built with purpose &amp; precision ✦</span>
+</footer>
+
+<!-- ═══════════════ SCRIPTS ═══════════════ -->
+<script src="script/script.js"></script>
+</body>
+</html>
